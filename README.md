@@ -1,6 +1,6 @@
 # Alt+RMB Manipulator Pie
 
-<video src="https://github.com/user-attachments/assets/12d26ef7-94b2-45dd-bb3b-1f9fa7704532" muted autoplay loop playsinline width="100%" height="auto"></video>
+<video src="https://github.com/user-attachments/assets/12d26ef7-94b2-45dd-bb3b-1f9fa7704532" autoplay loop muted playsinline controls width="100%" height="auto"></video>
 
 该插件唯一功能让 Blender 能够使用 `Alt + 鼠标右键` 快速切换 Gizmo 饼菜单
 
