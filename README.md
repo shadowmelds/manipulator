@@ -1,6 +1,8 @@
 # Alt+RMB Manipulator Pie
 
-该插件唯一功能是使用 `Alt + 鼠标右键` 快速切换 Gizmo 饼菜单
+<video src="https://github.com/user-attachments/assets/12d26ef7-94b2-45dd-bb3b-1f9fa7704532" muted autoplay loop playsinline width="100%" height="auto"></video>
+
+该插件唯一功能让 Blender 能够使用 `Alt + 鼠标右键` 快速切换 Gizmo 饼菜单
 
 该插件代码从免费插件 [3D Viewport Pie Menus](https://extensions.blender.org/add-ons/viewport-pie-menus/) 中提取而出，因为 `3D Viewport Pie Menus` 有时候会有 Bug，而且很多功能其实我并不需要，所以单独提取这个非常好用的功能，这使得切换显示 Gizmo 变得非常容易。
 
