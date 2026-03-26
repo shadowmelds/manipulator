@@ -6,7 +6,8 @@
 
 ## 使用
 
-打开 Blender，点击 `编辑` -> `偏好设置` `插件` `从本地磁盘安装` 选择 `manipulator.py`
+1. 下载 `manipulator.py`
+2. 打开 Blender，点击 `编辑` -> `偏好设置` `插件` `从本地磁盘安装` 选择 `manipulator.py`
 
 ---
 
