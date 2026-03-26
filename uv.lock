@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "fake-bpy-module-latest"
+version = "20260325"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/33/5a/3f7c5f37aa69cdbdb9f19bf2d5d9e44df8c36a762d5798af6b89f4690f34/fake_bpy_module_latest-20260325.tar.gz", hash = "sha256:b7934c64807640f6eb92a93f9c7a2c947ba5c52a70877f485d4fbf607c16cf6c", size = 882023, upload-time = "2026-03-25T06:53:00.232Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f2/cf/19f26ac0cd4e07fee7dedd1ec4e44c90ec8c6c6bb04cf9e8fdf3f92aebf0/fake_bpy_module_latest-20260325-py3-none-any.whl", hash = "sha256:feaa0999c7ff431a235c238c994a66a52a123e99a057831de65749fc66316e70", size = 1023653, upload-time = "2026-03-25T06:52:57.792Z" },
+]
+
+[[package]]
+name = "manipulator"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "fake-bpy-module-latest" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "fake-bpy-module-latest", specifier = ">=20260325" }]
