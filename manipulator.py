@@ -1,7 +1,7 @@
 from typing import cast
 
 import bpy
-from bpy.types import Area, Context, Menu, Operator, SpaceView3D
+from bpy.types import Area, Context, KeyMap, KeyMapItem, Menu, Operator, SpaceView3D
 
 bl_info = {
     "name": "Alt+RMB Manipulator Pie",
@@ -14,7 +14,7 @@ bl_info = {
 }
 
 
-addon_keymaps = []
+addon_keymaps: list[KeyMap, KeyMapItem] = []
 
 
 class PIE_MT_manipulator(Menu):
@@ -92,7 +92,7 @@ class PIE_MT_manipulator(Menu):
 class VIEW3D_OT_set_manipulator(Operator):
     bl_idname = "view3d.set_manipulator"
     bl_label = "Set Manipulator"
-    bl_options = {"REGISTER", "UNDO"}
+    bl_options = {"REGISTER"}
 
     manipulator: bpy.props.EnumProperty(
         items=[
